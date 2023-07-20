@@ -73,7 +73,6 @@ import RoundIcon from "./icons/RoundIcon.vue";
 .Nave {
   width: 80px;
   height: 95vh;
-  margin-top: 30px;
   margin-left: 30px;
   border-radius: 12px;
   position: fixed;
@@ -83,7 +82,7 @@ import RoundIcon from "./icons/RoundIcon.vue";
   z-index: 99;
   height: 100%;
   backdrop-filter: blur(20px);
-  background: rgba(29, 30, 53, 0.096);
+  background: rgba(33, 34, 59, 0.507);
 }
 .bottom {
   bottom: 10px;
