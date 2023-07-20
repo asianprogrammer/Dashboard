@@ -106,10 +106,10 @@ import RoundIcon from "./icons/RoundIcon.vue";
 }
 .filter {
   right: 0;
-  top: 160px;
+  top: 165px;
   width: 50px;
   height: 50px;
-  position: absolute;
   z-index: -9999;
+  position: absolute;
 }
 </style>
