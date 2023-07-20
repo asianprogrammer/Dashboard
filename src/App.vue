@@ -1,3 +1,8 @@
+<script setup>
+import NaveUI from "./components/NaveUI.vue";
+</script>
 <template>
-  <h1>Hi</h1>
+  <section>
+    <NaveUI />
+  </section>
 </template>
