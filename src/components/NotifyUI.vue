@@ -79,7 +79,7 @@ import InboxIcon from "./icons/InboxIcon.vue";
   margin-right: 5px;
 }
 .courses-boxes {
-  width: 400px;
+  width: 500px;
   padding: 14px 20px;
   margin-top: 15px;
   border-radius: 12px;

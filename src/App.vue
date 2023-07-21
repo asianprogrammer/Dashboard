@@ -4,6 +4,8 @@ import TopBar from "./components/TopBar.vue";
 import CoursesUI from "./components/CoursesUI.vue";
 import NotifyUI from "./components/NotifyUI.vue";
 import TaskUI from "./components/TaskUI.vue";
+import DateUI from "./components/DateUI.vue";
+import ChatUI from "./components/ChatUI.vue";
 </script>
 <template>
   <section>
@@ -14,7 +16,8 @@ import TaskUI from "./components/TaskUI.vue";
       <div>
         <TopBar />
       </div>
-      <div class="flex Left">
+      <div class="flex">
+        <div class="flex Left">
         <div class="wget special-wget flex flex-x-between">
           <div class="wget">
             <CoursesUI />
@@ -26,6 +29,17 @@ import TaskUI from "./components/TaskUI.vue";
         <div class="wget">
           <TaskUI />
         </div>
+      </div>
+
+      <!-- Right side UI -->
+      <div class="flex flex-y-down Right">
+        <div>
+          <DateUI />
+        </div>
+        <div class="MT">
+          <ChatUI />
+        </div>
+      </div>
       </div>
     </div>
   </section>
@@ -44,9 +58,14 @@ import TaskUI from "./components/TaskUI.vue";
   margin-top: 20px;
 }
 .Left {
-  width: 63%;
+  width: 70%;
   flex-wrap: wrap;
   flex-direction: column;
+}
+.Right {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: -20px;
 }
 .special-wget {
   justify-content: flex-start;

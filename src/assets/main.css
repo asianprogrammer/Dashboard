@@ -313,3 +313,36 @@
   border-radius: 25px;
   background: #252A41;
 }
+
+.vc-pane-container  {
+  background: #252A41 !important;
+}
+
+.vc-highlight-bg-solid {
+  background: #A948F2 !important;
+}
+.hr {
+  color: #4b4b69;
+  width: 100% !important;
+  text-align: center;
+  position: relative;
+  margin: 10px 0;
+}
+
+.hr::after {
+  right: 0;
+  content: '';
+  width: 42%;
+  height: 2px;
+  background: #303049;
+  position: absolute;
+}
+
+.hr::before {
+  left: 0;
+  content: '';
+  width: 42%;
+  height: 2px;
+  background: #303049;
+  position: absolute;
+}

@@ -321,7 +321,7 @@ import DownIcon from "./icons/DownArrowIcon.vue";
   background: #60627f;
 }
 .NativeBox {
-  width: 92% !important;
+  width: 98% !important;
 }
 .profile {
   width: 35px;

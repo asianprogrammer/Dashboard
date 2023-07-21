@@ -111,9 +111,9 @@ import RArrowIcon from "./icons/RArrowIcon.vue";
   height: 35px;
 }
 .courses-boxes .NativeCard {
-  width: 260px;
+  width: 272px;
+  margin: 0 10px;
   margin-top: 20px;
-  margin-right: 20px;
 }
 .bar {
   margin-top: 20px;
