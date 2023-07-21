@@ -306,3 +306,10 @@
   height: 100%;
   object-fit: cover;
 }
+.ActiveBtn {
+  padding: 5px 15px;
+  margin-left: 10px;
+  max-height: 40px;
+  border-radius: 25px;
+  background: #252A41;
+}
